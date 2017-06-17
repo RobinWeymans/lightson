@@ -1,0 +1,17 @@
+{
+  "name": "lightson",
+  "version": "1.0.0",
+  "description": "A webapp for togling the lights in my room from my phone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "http": "*",
+    "socket.io": "^2.0.3"
+  },
+  "author": "Robin Weymans",
+  "license": "ISC"
+}

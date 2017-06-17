@@ -1,0 +1,21 @@
+<input type="image" id="on_img" src="on.png"  />
+<input type="image" id="off_img" src="off.png"  />
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+	var on = document.getElementById('on_img');
+	var off = document.getElementById('off_img');
+	
+	var socket = io();
+    
+    on.addEventListener("click", function(){
+        //console.log("on");
+        socket.emit('on');
+    });
+    off.addEventListener("click", function(){
+        //console.log("off");
+        socket.emit('off');
+    });	
+	
+</script>
+
