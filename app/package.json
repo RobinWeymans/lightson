@@ -10,7 +10,7 @@
   "dependencies": {
     "express": "*",
     "http": "*",
-    "socket.io": "^2.0.3"
+    "socket.io": "*"
   },
   "author": "Robin Weymans",
   "license": "ISC"
